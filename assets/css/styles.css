@@ -23,6 +23,7 @@ body {
 }
 
 body {
+    background-color: var(--light);
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1rem;
     background-image: url(../img/bg-main-mobile.png);
