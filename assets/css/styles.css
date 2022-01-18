@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+:root {
+    --lightBlue: #66E2DC;
+    --lightRed: #FA7453;
+    --lightYellow: #FFB964;
+    --light: #FCFAF9;
+    --dark: #191826;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    background-image: url(../img/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top -250px left;
+    background-size: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: calc(100% - 3rem);
+    margin: 0 auto;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 146px;
+    height: 32px;
+    margin-top: 2.5rem;
+}
+
+.hero {
+    margin-top: 4rem;
+    color: var(--dark);
+}
+
+.hero__title {
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: -0.45px;
+}
+
+.hero__description {
+    margin-top: 1.25rem;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.main {
+    margin-top: 10.375rem;
+    height: 600px;
+    background-color: var(--dark);
+    background-image: url(../img/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-size: 280px 420px;
+    background-position: top center;
+    border-radius: 12px;
+    position: relative;
+}
+
+.app-illustration {
+    width: 209px;
+    margin: 0 auto;
+    position: absolute;
+    top: -98px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.premium {
+    position: absolute;
+    top: 100%;
+    margin-top: -220px;
+    background-color: var(--lightRed);
+    padding: 3rem 2.313rem 3rem 2.25rem;
+    color: var(--light);
+}
+
+.premium__title {
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.premium__description {
+    margin-top: 0.75rem;
+    font-size: 1.125rem;
+    line-height: 28px;
+}
+
+.premium__price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 4.063rem;
+    line-height: 52px;
+    font-weight: 700;
+    margin-top: 2.25rem;
+}
+
+.premium__price-span {
+    font-size: 1.25rem;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+
+.btns {
+    margin: 2rem auto 0;
+    display: grid;
+    gap: 1rem;
+    width: calc(100% - 6px);
+}
+
+.btn {
+    background-color: transparent;
+    border: 0;
+    padding: 0.938rem 0 0.875rem;
+    font-family: inherit;
+    font-size: 1.125rem;
+    line-height: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.92px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn--ios {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.btn--ios:hover {
+    background-color: var(--lightBlue);
+}
+
+.btn--android {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.btn--android:hover {
+    background-color: var(--lightYellow);
+}
