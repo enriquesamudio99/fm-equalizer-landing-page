@@ -42,7 +42,7 @@ body {
 @media (min-width: 1200px) {
     body {
         background-image: url(../img/bg-main-desktop.png);
-        background-position: top -112px left -146px;
+        background-position: top -252px left -252px;
     }
 }
 
