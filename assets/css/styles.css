@@ -159,3 +159,26 @@ img {
 .btn--android:hover {
     background-color: var(--lightYellow);
 }
+
+.footer {
+    margin-top: 24.375rem;
+    padding-bottom: 5rem;
+}
+
+.footer__logo {
+    width: 146px;
+    height: 32px;
+}
+
+.footer__copyright {
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 26px;
+    color: var(--dark);
+}
+
+.footer__copyright-span {
+    margin-top: 1px;
+    font-weight: 700;
+    display: block;
+}
