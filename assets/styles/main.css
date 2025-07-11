@@ -176,23 +176,58 @@ a {
 }
 
 /* End Globals */
-.header {
+.header__container {
   position: relative;
 }
 
+.header__bg-cyan-circle {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -9.5rem;
+  right: -13.25rem;
+  background: var(--clr-cyan);
+  filter: blur(8.4375rem);
+  opacity: 0.2825;
+}
+
+.header__bg-yellow-circle {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 7.4375rem;
+  right: -13.25rem;
+  background-color: var(--clr-yellow);
+  filter: blur(8.4375rem);
+  opacity: 0.2825;
+}
+
+.header__bg-orange-circle {
+  display: none;
+}
+
 @media (min-width: 48rem) {
-  .header__bg-mobile {
-    display: none;
+  .header__bg-orange-circle {
+    display: block;
   }
 }
 
 .navbar__container {
   padding: 4rem 0 0;
+  position: relative;
+  z-index: 2;
 }
 
 .navbar__logo-img {
   width: 9rem;
   height: 2rem;
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
 }
 
 .hero__container {
