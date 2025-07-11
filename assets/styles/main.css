@@ -370,6 +370,31 @@ a {
   position: relative;
 }
 
+.premium__circle {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .premium__circle {
+    display: block;
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+    background-color: var(--clr-orange);
+    position: absolute;
+    bottom: -12.0625rem;
+    right: -13.875rem;
+    filter: blur(8.4375rem);
+    opacity: 0.15;
+  }
+}
+
+@media (min-width: 80rem) {
+  .premium__circle {
+    right: -18rem;
+  }
+}
+
 .premium__img-container {
   width: 13rem;
   height: 26.875rem;
