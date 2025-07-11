@@ -211,6 +211,12 @@ a {
   }
 }
 
+@media (min-width: 80rem) {
+  .hero__info {
+    max-width: 58rem;
+  }
+}
+
 .hero__title {
   font: var(--text-preset-1-sm);
   color: var(--clr-slate);
@@ -223,6 +229,12 @@ a {
   }
 }
 
+@media (min-width: 80rem) {
+  .hero__title {
+    font: var(--text-preset-1-lg);
+  }
+}
+
 .hero__text {
   margin-top: 2.5rem;
   font: var(--text-preset-4-sm);
@@ -232,6 +244,13 @@ a {
 @media (min-width: 48rem) {
   .hero__text {
     font: var(--text-preset-4-md);
+  }
+}
+
+@media (min-width: 80rem) {
+  .hero__text {
+    font: var(--text-preset-4-lg);
+    max-width: 45.625rem;
   }
 }
 
@@ -270,6 +289,15 @@ a {
   }
 }
 
+@media (min-width: 80rem) {
+  .premium__img-container {
+    width: 19.5rem;
+    height: 40.125rem;
+    left: 6.2813rem;
+    top: -7.5625rem;
+  }
+}
+
 .premium__img {
   width: 100%;
   height: 100%;
@@ -303,6 +331,12 @@ a {
   }
 }
 
+@media (min-width: 80rem) {
+  .premium__bg-shape {
+    left: 23rem;
+  }
+}
+
 .premium__card {
   background-color: var(--clr-orange);
   color: var(--clr-slate);
@@ -320,6 +354,14 @@ a {
   }
 }
 
+@media (min-width: 48rem) {
+  .premium__card {
+    width: 32.5625rem;
+    height: 39.5rem;
+    bottom: -7.5625rem;
+  }
+}
+
 .premium__card-content {
   padding: 3rem 1.25rem 6.9375rem;
 }
@@ -327,6 +369,12 @@ a {
 @media (min-width: 48rem) {
   .premium__card-content {
     padding: 3rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  .premium__card-content {
+    padding: 3.5rem;
   }
 }
 
@@ -342,6 +390,12 @@ a {
 @media (min-width: 48rem) {
   .premium__text {
     font: var(--text-preset-4-md);
+  }
+}
+
+@media (min-width: 80rem) {
+  .premium__text {
+    font: var(--text-preset-4-lg);
   }
 }
 
@@ -373,6 +427,21 @@ a {
   gap: 2rem;
 }
 
+@media (min-width: 80rem) {
+  .footer__content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  .footer__logo {
+    flex-basis: 9rem;
+  }
+}
+
 .footer__info {
   display: flex;
   flex-direction: column;
@@ -384,6 +453,12 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media (min-width: 80rem) {
+  .footer__info {
+    flex: 1;
   }
 }
 
